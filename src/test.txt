@@ -1,0 +1,37 @@
+undefined is not a function (evaluating '(0, _redux.lokobeeReducers)({
+  Restaurant: _restaurantReducer2.default, MyOrder: _myOrderReducer2.default, Me: _meReducer2.default
+})')
+<unknown>
+    rootReducer.js:11:45
+loadModuleImplementation
+    require.js:174:12
+guardedLoadModule
+    require.js:126:36
+_require
+    require.js:110:24
+<unknown>
+    store.js:6
+loadModuleImplementation
+    require.js:174:12
+guardedLoadModule
+    require.js:126:36
+_require
+    require.js:110:24
+<unknown>
+    root.js:7
+loadModuleImplementation
+    require.js:174:12
+guardedLoadModule
+    require.js:126:36
+_require
+    require.js:110:24
+<unknown>
+    index.android.js:9
+loadModuleImplementation
+    require.js:174:12
+guardedLoadModule
+    require.js:119:45
+_require
+    require.js:110:24
+global code
+
