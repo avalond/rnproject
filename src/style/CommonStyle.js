@@ -5,7 +5,7 @@ import {
   StyleSheet
 }   from 'react-native';
 
-import Dimen from './../constant/dimission';
+import Dimen from '../constant/Dimission';
 
 export let commonStyle = StyleSheet.create({
   //间隔线

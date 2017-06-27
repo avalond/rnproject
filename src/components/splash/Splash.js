@@ -12,7 +12,7 @@ import {
 } from  'react-native';
 
 import NumberUtils from './../../utils/NumberUtil';
-import lokobeeTab from  '../mainTab/lokobeeTab';
+import lokobeeTab from  '../mainTab/LokobeeTab';
 
 let splashImgs = [
     require('./../../images/ic_splash_1.jpg'),

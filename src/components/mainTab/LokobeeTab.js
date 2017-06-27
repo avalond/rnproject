@@ -6,11 +6,11 @@ import {
   Text, View
 }from 'react-native';
 
-import {mainStyle} from './../../style/mainStyle';
+import {mainStyle} from '../../style/MainStyle';
 import  ScrollableTabView from  'react-native-scrollable-tab-view';
 import TabBar from './../../widget/TabBar';
 
-import MainPage from  '../Restaurant/MainPage';
+import MainPage from  '../Restaurant/RestaurantPage';
 import MyOrderPage from './../../components/order/MyOrder';
 import MePage from  './../../components/me/Me';
 

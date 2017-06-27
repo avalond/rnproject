@@ -5,7 +5,7 @@
 import React, {Component} from 'react';
 import {Navigator, BackAndroid} from 'react-native';
 
-import splash from './../components/splash/splash';
+import splash from './splash/Splash';
 
 let _navigator = null;//作为键盘返回键导航
 
@@ -14,7 +14,12 @@ export default class App extends Component {
   render() {
     return (
         <Navigator
-            initialRoute={{name: "splash", component: splash}}
+            initialRoute={
+              {
+                name: "splash",
+                component: splash
+              }
+            }
             renderScene={
               (route, navigator) => {
                 _navigator = navigator;

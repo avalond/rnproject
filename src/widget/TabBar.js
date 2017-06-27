@@ -5,8 +5,8 @@ import  React, {Component}from 'react';
 import {View, Text, TouchableOpacity} from  'react-native';
 
 import Icon from  'react-native-vector-icons/Ionicons';
-import {tabBarStyle} from './../style/tabBarStyle';
-import {commonStyle} from  './../style/commonStyle';
+import {tabBarStyle} from '../style/TabBarStyle';
+import {commonStyle} from  '../style/CommonStyle';
 
 export default class TabBar extends Component {
   //1.声明需要的属性

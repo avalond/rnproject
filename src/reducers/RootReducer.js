@@ -4,8 +4,8 @@
 
 import {lokobeeReducers} from 'redux';
 
-import Restaurant from './../reducers/restaurantReducer';
-import MyOrder from './../reducers/myOrderReducer';
+import Restaurant from './RestaurantReducer';
+import MyOrder from './MyOrderReducer';
 
 export default rootReducer = lokobeeReducers({
 })

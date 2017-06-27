@@ -3,7 +3,7 @@
  */
 import  {StyleSheet} from 'react-native';
 
-import Dimen from './../constant/dimission';
+import Dimen from '../constant/Dimission';
 
 export let mainStyle = StyleSheet.create({
   container: {

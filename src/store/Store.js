@@ -3,7 +3,7 @@
  */
 import thunk from 'react-thunk';
 import { createStore, applyMiddleware, compose } from 'redux';
-import rootReducer from './../reducers/rootReducer';
+import rootReducer from '../reducers/RootReducer';
 
 let store = createStore({},compose(
     applyMiddleware(thunk),
