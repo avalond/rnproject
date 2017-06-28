@@ -8,4 +8,5 @@ import Restaurant from './RestaurantReducer';
 import MyOrder from './MyOrderReducer';
 
 export default rootReducer = lokobeeReducers({
+  Restaurant, MyOrder
 })
